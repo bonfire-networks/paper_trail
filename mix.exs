@@ -31,7 +31,8 @@ defmodule PaperTrail.Mixfile do
       {:ecto_sql, ">= 3.10.1"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:jason, ">= 1.4.0", only: [:dev, :test]},
-      {:postgrex, ">= 0.0.0", only: [:dev, :test]}
+      {:postgrex, ">= 0.0.0", only: [:dev, :test]},
+      {:pointers, "~> 0.5.1", optional: true}
     ]
   end
 
