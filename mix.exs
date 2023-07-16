@@ -32,7 +32,7 @@ defmodule PaperTrail.Mixfile do
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:jason, ">= 1.4.0", only: [:dev, :test]},
       {:postgrex, ">= 0.0.0", only: [:dev, :test]},
-      {:pointers, "~> 0.5.1", optional: true}
+      {:pointers_ulid, "~> 0.2.2", optional: true}
     ]
   end
 
