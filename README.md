@@ -1,11 +1,11 @@
+# Paper Trail
+
+Track and record all the changes in your database. Revert back to anytime in history.
+
 [![Hex Version](http://img.shields.io/hexpm/v/paper_trail.svg?style=flat)](https://hex.pm/packages/paper_trail) [![Hex docs](http://img.shields.io/badge/hex.pm-docs-green.svg?style=flat)](https://hexdocs.pm/paper_trail/PaperTrail.html)
 [![Total Download](https://img.shields.io/hexpm/dt/paper_trail.svg)](https://hex.pm/packages/paper_trail)
 [![License](https://img.shields.io/hexpm/l/paper_trail.svg)](https://github.com/izelnakri/paper_trail/blob/master/LICENSE)
 [![Last Updated](https://img.shields.io/github/last-commit/izelnakri/paper_trail.svg)](https://github.com/izelnakri/paper_trail/commits/master)
-
-# Paper Trail
-
-Track and record all the changes in your database. Revert back to anytime in history.
 
 # How does it work?
 
