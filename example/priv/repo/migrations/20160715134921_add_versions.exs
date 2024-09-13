@@ -5,7 +5,7 @@ defmodule Repo.Migrations.AddVersions do
     create table(:versions) do
       add :event,        :string
       add :item_type,    :string
-      add :item_id,      :integer
+      add :item_id,      :uuid
       add :item_changes, :map
       add :origin,       :string
       add :originator_id, references(:people)

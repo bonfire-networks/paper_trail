@@ -3,6 +3,7 @@ defmodule Person do
 
   import Ecto.Changeset
 
+  @primary_key {:id, Ecto.UUID, autogenerate: true}
   schema "people" do
     field :first_name, :string
     field :last_name, :string

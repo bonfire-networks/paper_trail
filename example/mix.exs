@@ -31,11 +31,17 @@ defmodule Example.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:ecto, "~> 3.0-rc", override: true},
-      {:ecto_sql, "~> 3.0-rc", override: true},
-      {:postgrex, ">= 0.0.0-rc"},
+      {:ecto, "~> 3.12"},
+      {:ecto_sql, "~> 3.12"},
+      {:postgrex, ">= 0.0.0"},
       {:jason, "~> 1.0"},
-      {:paper_trail, path: "../"}
+      {:paper_trail, 
+        #path: "../"
+        git: "https://github.com/izelnakri/paper_trail"
+      },
+      {:needle_ulid, 
+        git: "https://github.com/bonfire-networks/needle_ulid"
+      }
     ]
   end
 end
