@@ -3,7 +3,7 @@ defmodule Company do
 
   import Ecto.Changeset
 
-  @primary_key {:id, Ecto.UUID, autogenerate: true}
+  @primary_key {:id, Needle.ULID, autogenerate: true}
   schema "companies" do
     field :name, :string
     field :is_active, :boolean
