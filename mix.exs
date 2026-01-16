@@ -33,8 +33,8 @@ defmodule PaperTrail.Mixfile do
       {:jason, ">= 1.4.0", only: [:dev, :test]},
       {:postgrex, ">= 0.0.0", only: [:dev, :test]},
       {:needle_uid, 
-        #"~> 0.0.1",
-        git: "https://github.com/bonfire-networks/needle_uid",
+        "~> 0.0.2",
+        # git: "https://github.com/bonfire-networks/needle_uid",
         optional: true
       }
     ]
