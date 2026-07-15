@@ -31,7 +31,10 @@ defmodule PaperTrail.MixProject do
       {:ecto_sql, ">= 3.12.0"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:jason, ">= 1.4.4", only: [:dev, :test]},
-      {:postgrex, ">= 0.0.0", only: [:dev, :test]}
+      {:postgrex, ">= 0.0.0", only: [:dev, :test]},
+      # optional: provides the `Needle.UID` custom type for `item_id`/`originator_id`
+      # (being a declared dependency guarantees it compiles before our `Version` schema)
+      {:needle_uid, ">= 0.0.2", optional: true}
     ]
   end
 
